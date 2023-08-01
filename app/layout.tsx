@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from './navbar'
+import LayoutSidemenu from './layoutSidemenu'
+import LayoutBreadcrumb from './layoutBreadcrumb'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './encircle.scss'
 
@@ -21,7 +23,17 @@ export default function RootLayout({
       <body className={inter.className}>      
         <Navbar />
         <div className="container">
-          {children}
+          <div className="row pt-2">
+            <div className="col-2">
+              <LayoutSidemenu />
+            </div>
+            <div className="col-10">
+              <LayoutBreadcrumb />
+              <main>
+                {children}
+              </main>
+            </div>
+          </div>
         </div>
       </body>
     </html>
