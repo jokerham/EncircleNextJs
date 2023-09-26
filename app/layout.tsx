@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Navbar from './navbar'
 import LayoutSidemenu from './layoutSidemenu'
 import LayoutBreadcrumb from './layoutBreadcrumb'
+import LoginForm from './login'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './encircle.scss'
 
@@ -35,6 +36,7 @@ export default function RootLayout({
             </div>
           </div>
         </div>
+        <LoginForm />
       </body>
     </html>
   )

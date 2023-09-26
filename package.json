@@ -16,14 +16,21 @@
     "bootstrap": "^5.3.0",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
-    "next": "13.4.10",
+    "formik": "^2.4.3",
+    "i18next": "^23.5.1",
+    "ldap-authentication": "^3.0.3",
+    "next": "^13.4.19",
     "postcss": "8.4.26",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-i18next": "^13.2.2",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.14.2",
     "sass": "^1.63.6",
+    "suneditor": "^2.45.1",
+    "suneditor-react": "^3.6.1",
     "tailwindcss": "3.3.3",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "yup": "^1.2.0"
   }
 }
